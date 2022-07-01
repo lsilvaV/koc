@@ -1,0 +1,101 @@
+
+/*Sobre*/
+
+body{
+    background: url(../img/imgbg.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+.container{
+    height: 100%;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+    box-shadow: 1px 2px 20px #000, 2px 6px 50px #000;
+    padding: 50px 20px;
+}
+
+.img1{
+    margin-top: 15px;
+    padding: 5px;
+    width: 30%;
+}
+
+.img2{
+    margin-top: 15px;
+    margin-left: 70%;
+    padding: 5px;
+    width: 30%;
+    /*Invert*/
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.card2{
+    margin: 50px;
+}
+
+.invert{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.sobre{
+    font-family: sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 26%;
+    text-align: left;
+    width: 60%;
+}
+
+.visao{
+    font-family: sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 1%;
+    text-align: left;
+    width: 60%;
+}
+
+.s{
+    margin: 0px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    margin-left: 43%;
+    width: 10%;
+}
+
+/* Inserir pedido e usuário */
+.central{
+    height: 10em;
+    position: relative 
+}
+
+.central h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+
+/* nav bar */
+.barra{
+    top: auto;
+    position: absolute;
+    width: 100%;
+    background: rgba(58, 56, 56, 0.5);
+}
